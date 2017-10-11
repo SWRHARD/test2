@@ -4,7 +4,6 @@
 #include "mythread.h"
 #include "firstwindow.h"
 
-// ну main вы просто не приводили; приведу, чтобы было понятно, как можно запустить
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
