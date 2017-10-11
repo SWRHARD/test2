@@ -19,7 +19,6 @@ class MyThread : public QObject
   private slots:
     void UpdateFirstValue (int i);
   public slots:
-  // это основная причина, почему не работало; вы определили его как private, но хотели вызывать из qml
     void StartThread(int);
 
   public:
